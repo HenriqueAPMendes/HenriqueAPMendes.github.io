@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about-me">Sobre mim</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+
+      </ul>
+      <span>
+        <input type="checkbox" id="menu-btn" class="menu-btn">
+        <label for="menu-btn" class="menu-btn-label" title="menu btn"></label>
+        <span class="lang">EN</span>
+        <label class="lang-switch">
+          <input type="checkbox" class="switcher" checked>
+          <span class="slider"></span>
+        </label>
+        <span class="lang">PT-BR</span>
+      </span>
+    </nav>
+
+  </header>
+
+  <section id="home">
+    <div class="home-text">
+      <p>
+        Olá, sou o Henrique.
+      </p>
+      <p>
+        Sou desenvolvedor e atualmente trabalho com as seguintes tecnologias:
+      </p>
+    </div>
+    <div class="tech-stack">
+
+      <div class="stack">
+        <h3>Front-end</h3>
+        <ul class="front-end">
+          <li><img class="technology" src="../src/assets/img/html.svg"></li>
+          <li><img class="technology" src="../src/assets/img/css.svg"></li>
+          <li><img class="technology" src="../src/assets/img/javascript.svg"></li>
+          <li><img class="technology" src="../src/assets/img/react.svg"></li>
+          <li><img class="technology" src="../src/assets/img/typescript.svg"></li>
+        </ul>
+      </div>
+
+      <div class="stack">
+        <h3>Back-end</h3>
+        <ul class="back-end">
+          <li><img class="technology" src="../src/assets/img/nodeJS.svg"></li>
+          <li><img class="technology" src="../src/assets/img/cpp.svg"></li>
+          <li><img class="technology" src="../src/assets/img/python.svg"></li>
+        </ul>
+      </div>
+
+      <div class="stack">
+        <h3>Outras tecnologias</h3>
+        <ul class="others">
+          <li><img class="technology" src="../src/assets/img/git.svg"></li>
+          <li><img class="technology" src="../src/assets/img/github.svg"></li>
+          <li><img class="technology" src="../src/assets/img/mongodb.svg"></li>
+          <li><img class="technology" src="../src/assets/img/mysql.svg"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me">
+    <h2>SOBRE MIM</h2>
+    <div class="about-me-content">
+      <img src="../src/assets/img/aboutMe.png" class="background">
+      <span class="about-me-text">
+        <p>
+          Cursei meu ensino Fundamental e Médio no Colégio da Polícia Militar do Paraná (CPMPR), em Curitiba, Brasil.
+        </p>
+        <p>
+          Atualmente cursando Engenharia de Computação na Universidade Tecnológica Federal do Paraná (UTFPR).
+        </p>
+        <p>
+          Sempre fui apaixonado por tecnologia e aprender a construir coisas.
+        </p>
+      </span>
+
+      <div class="links">
+        <a href="https://www.linkedin.com/in/henrique-mendes-dev/" target="_blank"><img src="../src/assets/img/linkedin.png"></a>
+        <a href="../src/assets/Curriculo.pdf" download="curriculo-henrique-mendes.pdf"> <img
+            src="../src/assets/img/download.png"></a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>PROJETOS</h2>
+    <div class="portfolio-container">
+      <div class="portfolio">
+
+        <div class="card">
+          <h3>Jogo em C++</h3>
+          <img src="../src/assets/img/jumpking1.png" alt="" srcset="">
+
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text"><a href="https://github.com/HenriqueAPMendes/JumpKing1" target="_blank">Saiba
+                mais</a></span>
+          </button>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <img src="../src/assets/img/coming-soon.jpg" alt="" srcset="">
+
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text"><a href="https://github.com/HenriqueAPMendes/JumpKing1" target="_blank">Saiba
+                mais</a></span>
+          </button>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <img src="../src/assets/img/coming-soon.jpg" alt="" srcset="">
+
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text"><a href="https://github.com/HenriqueAPMendes/JumpKing1" target="_blank">Saiba
+                mais</a></span>
+          </button>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <img src="../src/assets/img/coming-soon.jpg" alt="" srcset="">
+
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text"><a href="https://github.com/HenriqueAPMendes/JumpKing1" target="_blank">Saiba
+                mais</a></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="email-container">
+      <h2>Contato</h2>
+      <form action="GET">
+
+        <div class="input-box">
+          <input type="text" class="name input" required>
+          <span class="placeholder">Seu nome</span>
+        </div>
+        <div class="input-box">
+          <input type="text" class="email input" required>
+          <span class="placeholder">Seu e-mail</span>
+        </div>
+        <div class="input-box">
+          <input type="text" class="subject input" required>
+          <span class="placeholder">Assunto</span>
+        </div>
+        <div class="input-box">
+          <textarea class="message input" cols="50" rows="50" required></textarea>
+          <span class="placeholder">Mensagem</span>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="./assets/jks/bundle.js"></script>
+</body>
+
+</html>
