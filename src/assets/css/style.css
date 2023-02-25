@@ -273,11 +273,12 @@ only screen and (max-device-width: 480px) {
 .about-me-content {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  left: 0;
 }
 
 .about-me-text {
-  position: absolute;
-  left: 5vw;
   max-width: 35vw;
   font-size: 1.3em;
 }
@@ -295,6 +296,10 @@ only screen and (max-device-width: 480px) {
 
 .links img:hover {
   transform: scale(1.2);
+}
+
+.pc-img img{
+  width: 400px;
 }
 
 /* secao projetos */
