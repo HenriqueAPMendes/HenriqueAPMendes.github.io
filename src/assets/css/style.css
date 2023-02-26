@@ -256,14 +256,14 @@ nav span {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(28em, 1fr));
   margin: 0 auto;
   padding: 20px;
 }
 
 .card {
   height: 400px;
-  width: 50vw;
+  width: 28em;
   position: relative;
   transition: all .7s ease-in-out;
   display: flex;
@@ -273,8 +273,8 @@ nav span {
 }
 
 .card img {
-  height: inherit;
-  width: inherit;
+  height: 20em;
+  width: 90%;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -283,20 +283,6 @@ nav span {
   font-size: 1em;
 }
 
-.card button a {
-  text-decoration: none;
-  color: black;
-}
-
-.card .saiba-mais {
-  position: relative;
-  bottom: 60px;
-  border: 3px solid white;
-  padding: 3px 10px;
-  border-radius: 3px;
-  opacity: .7;
-  background-color: rgba(0, 0, 0, 0.479);
-}
 
 /* BOTAO SAIBA MAIS */
 
@@ -373,6 +359,7 @@ button.learn-more .button-text {
 }
 
 button.learn-more .button-text a {
+  text-decoration: none;
   color: var(--white-color);
 }
 
